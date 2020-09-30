@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'webpack',
+1 verbose cli   'webpack-cli',
+1 verbose cli   '--save-dev'
+1 verbose cli ]
+2 info using npm@6.10.2
+3 info using node@v12.9.0
+4 verbose npm-session 9e16a83fc2cfc8aa
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/webpack-cli 252ms
+8 http fetch GET 200 https://registry.npmjs.org/webpack 387ms
+9 http fetch GET 200 https://registry.npmjs.org/webpack-cli/-/webpack-cli-3.3.12.tgz 170ms
+10 silly pacote tag manifest for webpack-cli@latest fetched in 532ms
+11 http fetch GET 200 https://registry.npmjs.org/webpack/-/webpack-4.44.2.tgz 124ms
+12 silly pacote tag manifest for webpack@latest fetched in 561ms
+13 timing stage:loadCurrentTree Completed in 609ms
+14 silly install loadIdealTree
+15 silly install cloneCurrentTreeToIdealTree
+16 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+17 silly install loadShrinkwrap
+18 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+19 silly install loadAllDepsIntoIdealTree
+20 timing stage:rollbackFailedOptional Completed in 1ms
+21 timing stage:runTopLevelLifecycles Completed in 615ms
+22 silly saveTree webpack@1.0.0
+23 verbose stack Error: Refusing to install package with name "webpack" under a package
+23 verbose stack also called "webpack". Did you name your project the same
+23 verbose stack as the dependency you're installing?
+23 verbose stack
+23 verbose stack For more information, see:
+23 verbose stack     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+23 verbose stack     at checkSelf (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:64:14)
+23 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+23 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+23 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+23 verbose stack     at hasMinimumFields (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:30:12)
+23 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+23 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+23 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+23 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:16:5
+23 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+23 verbose stack     at Array.forEach (<anonymous>)
+23 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+23 verbose stack     at Array.forEach (<anonymous>)
+23 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+23 verbose stack     at module.exports (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:15:3)
+23 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+24 verbose cwd C:\Users\This PC\Desktop\portfolio5
+25 verbose Windows_NT 10.0.19041
+26 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "webpack" "webpack-cli" "--save-dev"
+27 verbose node v12.9.0
+28 verbose npm  v6.10.2
+29 error code ENOSELF
+30 error Refusing to install package with name "webpack" under a package
+30 error also called "webpack". Did you name your project the same
+30 error as the dependency you're installing?
+30 error
+30 error For more information, see:
+30 error     <https://docs.npmjs.com/cli/install#limitations-of-npms-install-algorithm>
+31 verbose exit [ 1, true ]
