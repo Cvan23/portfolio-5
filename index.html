@@ -115,7 +115,7 @@
       </div>
   
       <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#lang">
-        <div class="card-container" id="langcard" type="button">
+        <div class="card-container" id="langcard">
           <div class="card-flip">
             <!-- Card 1 Front -->
             <div class="card front">
@@ -276,6 +276,11 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
      <script src="main.js"></script>
+     <script>
+       $('.card-container .card-flip').click(function(){
+          $(this).toggleClass("flip");
+      });
+     </script>
      
      
 
