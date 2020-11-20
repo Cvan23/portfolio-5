@@ -18,18 +18,18 @@ body {
 }
 
 .card-header {
-  background-color:#303f9fc5;
+  background-color:#303f9fe3;
   color: #E8EAF6;
   font-size: xx-large;
 }
 
 .card-body, .card-container, .card {
-  background-color: #1a227e63;
+  background-color: #1a227ec4;
   
 }
 
 .navbar {
-  background-color:#37474fb6;
+  background-color:#37474fce;
   
 }
 
@@ -44,7 +44,8 @@ h1, h2 {
 }
 
 h3, h6 {
-  color: #C5CAE9;
+  color: #e0e4ff;
+  font-weight: 700;
 }
 
 h4, h5 {
